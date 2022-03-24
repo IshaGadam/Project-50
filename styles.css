@@ -1,0 +1,54 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  align-items: stretch;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+  justify-content: space-evenly;
+}
+
+.languages {
+  border: 0in;
+  border-radius: 60px;
+  background-color: white;
+  justify-content: space-around;
+}
